@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="muestras.css">
+  <title>Muestras</title>
+</head>
+<body>
+  <div class="muestras-container">
+    <h1>Muestras &#127876</h1>
+    
+    <!-- DataGridView para mostrar las muestras -->
+    <div class="datagrid-container">
+    </div>
+
+    <!-- Formulario para insertar, borrar, actualizar muestras -->
+    <form id="muestrasForm">
+      <label for="id">ID:</label>
+      <input type="text" id="id" name="id" required>
+
+      <label for="nif">NIF:</label>
+      <input type="text" id="nif" name="nif" required>
+
+      <label for="cultivo">Cultivo:</label>
+      <input type="text" id="cultivo" name="cultivo" required>
+
+      <label for="solucion">Solución:</label>
+      <select id="solucion" name="solucion">
+      </select>
+
+      <div class="button-container">
+        <button type="button" id="insertarButton" onclick="insertar()">Insertar</button>
+        <button type="button" id="borrarButton" onclick="borrar()">Borrar</button>
+        <button type="button" id="actualizarButton" onclick="actualizar()">Actualizar</button>
+        <button type="button" id="limpiarButton" onclick="limpiar()">Limpiar</button>
+        <button type="button" id="salirButton" onclick="salir()">Salir</button>
+      </div>
+    </form>
+  </div>
+
+  <script src="../muestras.js"></script>
+</body>
+</html>
