@@ -4,7 +4,7 @@ Este es nuestro proyecto utilizando la herramienta Electron JS
 
 - Primero teneis que tener instalado Node.js y npm
   Dependencias que teneis que instalar se tienen que crear una carpeta node_modules y package-lock.json
-  CREO QUE HACER npm install SE INSTALA TODO
+  HAY QUE HACER npm install SE INSTALA TODO
   npm i electron promise-mysql mysql electron-reload
 
 Enlaces de interes:
